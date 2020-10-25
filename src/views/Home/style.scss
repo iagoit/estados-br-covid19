@@ -1,0 +1,38 @@
+// Gerais
+@import '@/assets/scss/reset.scss';
+@import '@/assets/scss/responsividade.scss';
+@import '@/components/template/header.scss';
+@import '@/components/template/select.scss';
+@import '@/components/template/card.scss';
+@import '@/components/template/footer.scss';
+
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main {
+    background-color: $color-background;
+    @include device(desktop) {
+        height: 739px;
+    }
+}
+
+.cards {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .cards__item {
+        margin-bottom: 20px;
+        @include device(desktop) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.footer {
+    margin-top: auto;
+}

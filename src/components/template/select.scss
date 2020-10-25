@@ -1,0 +1,32 @@
+@import '@/assets/scss/reset.scss';
+@import '@/assets/scss/font.scss';
+@import '@/assets/scss/colors.scss';
+@import '@/assets/scss/responsividade.scss';
+
+
+.select {
+    text-align: center;
+    font-family: $font;
+    .select__box {
+        padding-top: 30px;
+        .select__input {
+            width: 50%;
+            height: 50px;
+            font-size: 1.2rem;
+        }
+    }
+    .title {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        color: $color-text-primary;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;    
+        @include device(desktop) {
+            font-size: 38px;
+        }
+    }
+}
+
+
+
