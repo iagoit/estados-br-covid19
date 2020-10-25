@@ -12,7 +12,7 @@
                 </select>
             </div>     
             <div>
-                <h1 class="title">Segue abaixo os dados de: {{ regionSelected }} </h1>
+                <h1 class="title">Seegue abaixo os dados de: {{ regionSelected }} </h1>
             </div>                 
         </div>
     </div>
