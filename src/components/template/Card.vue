@@ -8,6 +8,11 @@
 </template>
 
 <script>
+/**
+ * Nesse caso o export default foi criado para ser reutilizado (pai-filho).
+ * O props é um array neste caso, é colocado no componente como se fosse um atribulo.
+ * Casos confirmados, mortes, curados e suspeitos.
+ */
 export default {
     name: "Card",
     props: ['title', 'cases', 'deaths', 'refuses', 'suspects']    

@@ -7,6 +7,9 @@
 </template>
 
 <script>
+/**
+ * Neste caso a data, função, irá ter um retorno, que neste caso seria a logo.
+ */
 export default {
     name: "Header",
     data() {
